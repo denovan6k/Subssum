@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Header from "../Header"
 import { usePathname } from "next/navigation"
 import DashBoardLayout from '../dashboard/dashboardlayout'
-const page = () => {
+const Support = () => {
   const pathname = usePathname();
 
   const title = pathname === '/support' ? 'Help & Support' : 'Welcome, Lawal Wahab';
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Support

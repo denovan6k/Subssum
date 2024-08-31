@@ -15,7 +15,7 @@ import { Label } from "@/components/ui/label"
 import DashBoardLayout from '../dashboard/dashboardlayout'
 
 import { Switch } from "@/components/ui/switch"
-const profile = () => {
+const Profile = () => {
   return (
     <>
 <DashBoardLayout>
@@ -142,4 +142,4 @@ const profile = () => {
   )
 }
 
-export default profile
+export default Profile
